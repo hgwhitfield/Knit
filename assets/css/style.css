@@ -46,6 +46,15 @@ body {
 carousel-text{
     font-family: "work sans", sans-serif;
 }
+.callout-header{
+  font-family: "caveat", sans-serif;
+  font-weight: bolder;
+  text-align: center;
+}
+.callout-text{
+  font-family: "fira sans", sans-serif;
+  padding: 15px;
+}
 /*Navigation-------------------------------------------------------------------------------- */
 .toggler-icon-style {
     padding-right: 100px;
@@ -63,35 +72,46 @@ carousel-text{
       overflow-y: auto;
     }
   }
-  /*Jumbotron-------------------------------------------------------------------------------- */
-  .callout.jumbotron {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    height: 75vh; /* Adjust as needed */
-    text-align: center; /* To center text horizontally */
-    font-weight: bold;
+  .navbar-brand .logo-svg {
+    width: 200px; /* Default width */
+    height: auto; /* Maintain aspect ratio */
 }
-  .jumbotron-bg {
-    background-color: #F499C1;
-    height: 500px;
-    text-align: center;
-}
-    .jumbotron-header{
-        font-weight: bold;
+
+/* Smaller logo size on smaller screens */
+@media (max-width: 767px) {
+    .navbar-brand .logo-svg {
+        width: 115px; /* Adjust width for smaller screens */
     }
+}
+  /*callout-------------------------------------------------------------------------------- */
+  #hero-image{
+    border-radius: 10px;
+  }
+.callout-container {
+  padding: 75px;
+  background-color: rgba(230, 230, 250, 0.541);
+  border-radius: 10px;
+  margin: 20px;
+
+}
+  
     /*Carousel-------------------------------------------------------------------------------- */
     .blockquote-footer {
         margin-top: 30px;
       }
       
       .review-text-styling {
+        font-family: "fira sans", sans-serif;
         text-align: center;
         padding: 100px;
       }
       #carouselExampleIndicators {
-        background-color:#F499C1;
+        background-color: rgba(230, 230, 250, 0.541);
+        border-radius: 10px;
+      }
+      .carousel-container {
+        position: relative; /* Ensure relative positioning for the carousel */
+        z-index: 3; /* Ensure the carousel is above the overlay */
       }
     /*Contact-Form-------------------------------------------------------------------------------- */
 .contact-box {
@@ -102,6 +122,10 @@ carousel-text{
 form{
     padding-bottom: 82px;
 }
+@media (max-width: 767px) {
+  .row [class*="col-"] {
+    margin-bottom: 20px; /* Add a bottom margin to create a gap */
+  }
 }
     /*google-maps-API-Form-------------------------------------------------------------------------------- */
     .google-map-container {
@@ -121,10 +145,10 @@ form{
         display: flex;
         flex-wrap: wrap;
       }
-      
-      .contact-box {
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-        min-height: 500px; /* Adjust as needed */
+       /*Hero Image-------------------------------------------------------------------------------- */
+       #hero-image {
+        max-width: 100%; /* Make sure the image doesn't exceed its container width */
+        height: auto; /* Maintain aspect ratio */
+        margin: 0 auto; /* Center the image horizontally */
+        display: block; /* Ensure the image is treated as a block element */
       }

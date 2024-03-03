@@ -12,7 +12,9 @@
       <!-- Navbar -->
         <nav class="navbar navbar-light navbar-expand-lg sticky-top bg-body navbar-bg py-4">
           <div class="container">
-            <a class="navbar-brand navbar-header" href="index.html" aria-current="page"><strong>Knit & Natter</strong> <span class="caveat">with Jan</span></a>
+            <a class="navbar-brand navbar-header" href="index.html" aria-current="page">
+              <img src="assets/images/KNIT-AND-NATTER-LOGO.svg" alt="Knit & Natter Logo" class="logo-svg"> <!-- Add your SVG logo here -->
+            </a>
       
             <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
               <span class="navbar-toggler-icon"></span>
@@ -33,7 +35,7 @@
                     <a class="nav-link" href="shop.html">Shop</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="about.html">Club</a>
+                    <a class="nav-link" href="club.html">Club</a>
                   </li>
                 </ul>
                 <div class="d-grid gap-2 mt-auto mt-lg-0">
@@ -43,34 +45,40 @@
             </div>
           </div>
         </nav>
-      <!-- Callout -->
-        <article class="container mt-3">
-          <div class="row">
-            <div class="col-12">
-                <section class="callout jumbotron text-center jumbotron-bg rounded">
-                    <h1 class="display-4 jumbotron-header">Unwind with us! </h1>
-                    <p class="lead">Join our cozy knitting community and discover the joy of creating handmade treasures.
-                    </p>
-                    <p><button class="btn btn-lg btn-success">Get in touch!</button></p>
-                    <p class="text-muted"><small>Everybody welcome! Begginers to experts, old to young.</small></p>
-                </section>
+              <!-- hero image -->
+    <section>
+      <div class="container-fluid hero-container">
+        <div class="row">
+            <div class="col-12 d-flex justify-content-center align-items-center">
+                <img id="hero-image" alt="Unwind With Us" src="assets/images/KNIT-NATTER-HERO-IMAGE.png" />
+                <span class="sr-only">An image of pink wool in a basket, with the words "unwind with us" written above it.</span>
             </div>
         </div>
-        <hr>
-        <section class ="container mt-5 mb-5 intro-paragraph">
-          <p>Welcome to [Shop Name] – your cozy knitting sanctuary! Nestled in [Location],
-             our family-run shop is a haven for knitters of all ages.
-      
-            Discover premium yarns from around the world, handpicked with care. Whether
-             you're a seasoned pro or just starting out, find inspiration and community in our welcoming space.
-            
-            Join us for weekly knitting circles and share in the joy of handmade craftsmanship. Let's knit something beautiful together!</p>
-        </section>
+      </div>
+    </section>
+    <hr>
+    <!-- Callout section -->
+    <article class="container">
+      <div class="row">
+        <div class="col-12 text-center callout-container">
+          <h1 class="callout-header">Join our cozy knitting community and discover the joy of creating handmade treasures.</h1>
+          <p class="callout-text">Welcome to [Shop Name] – your cozy knitting sanctuary! Nestled in [Location],
+            our family-run shop is a haven for knitters of all ages.
+     
+           Discover premium yarns from around the world, handpicked with care. Whether
+            you're a seasoned pro or just starting out, find inspiration and community in our welcoming space.
+           
+           Join us for weekly knitting circles and share in the joy of handmade craftsmanship. Let's knit something beautiful together!</p>
+          <p><button class="btn btn-lg my-button center">Get in touch!</button></p>
+        </div>
+      </div>
+    </article>
         <hr>
               <!-- Review-carousel -->
-        <div class="container">
-          <div class="row">
-              <div class="col-12 mx-auto"> <!-- Adjust the column size based on your preference -->
+              <div class="container">
+                <div class="row">
+                    <div class="col-12  mx-auto">
+                        <div class="carousel-container">
                   <div id="carouselExampleIndicators" class="carousel slide">
                       <div class="carousel-indicators">
                           <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -113,6 +121,7 @@
                   </div>
               </div>
           </div>
+        </div>
       </div>
       <hr>
       <!-- Footer -->
