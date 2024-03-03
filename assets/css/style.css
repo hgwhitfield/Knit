@@ -33,12 +33,20 @@ body {
 .button-text{
     font-weight: bold;
 }
-/*Navigation-------------------------------------------------------------------------------- */
 .my-button {
     background-color: #F499C1;
     color: #ffffff;
     font-weight: bold;
 }
+.intro-paragraph{
+    font-family: "Fira Sans", sans-serif;
+    color: #000000;
+    font-size: large;
+}
+carousel-text{
+    font-family: "work sans", sans-serif;
+}
+/*Navigation-------------------------------------------------------------------------------- */
 .toggler-icon-style {
     padding-right: 100px;
     text-align: center;
@@ -55,3 +63,34 @@ body {
       overflow-y: auto;
     }
   }
+  /*Jumbotron-------------------------------------------------------------------------------- */
+  .callout.jumbotron {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 75vh; /* Adjust as needed */
+    text-align: center; /* To center text horizontally */
+    font-weight: bold;
+}
+  .jumbotron-bg {
+    background-color: #F499C1;
+    height: 500px;
+    text-align: center;
+}
+    .jumbotron-header{
+        font-weight: bold;
+    }
+    /*Carousel-------------------------------------------------------------------------------- */
+    .blockquote-footer {
+        margin-top: 30px;
+      }
+      
+      .review-text-styling {
+        text-align: center;
+        padding: 100px;
+      }
+      #carouselExampleIndicators {
+        background-color:#F499C1;
+
+      }
