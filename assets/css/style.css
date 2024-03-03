@@ -1,0 +1,57 @@
+/*Fonts---------------------------------------------------------------------------------- */
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+/*remove---------------------------------------------------------------------------------- */
+.nopadding {
+    padding: 0;
+}
+.noborder {
+    border-style:none;
+}
+.nomargin {
+    margin:0;
+}
+/*colours---------------------------------------------------------------------------------- */
+body {
+    background-color: white;
+}
+.pink {
+    background-color: #F499C1;
+}
+/*Text + Headings--------------------------------------------------------------------------- */
+.nav-item-text{
+    font-family: "work sans", sans-serif;
+    font-weight: bold;
+}
+.caveat{
+    font-family: "caveat", sans-serif;
+}
+.navbar-header{
+    font-family: "Fira Sans", sans-serif;
+    color: #F499C1;
+    font-size: x-large;
+}
+.button-text{
+    font-weight: bold;
+}
+/*Navigation-------------------------------------------------------------------------------- */
+.my-button {
+    background-color: #F499C1;
+    color: #ffffff;
+    font-weight: bold;
+}
+.toggler-icon-style {
+    padding-right: 100px;
+    text-align: center;
+}
+.offcanvas-header {
+    border-bottom: 1px solid var(--bs-gray-300);
+  }
+  @media (max-width: 991px) {
+    .offcanvas-body {
+      display: flex;
+      flex-direction: column;
+      max-width: 90%;
+      max-height: calc(100vh - 56px); /* Adjust the value as needed */
+      overflow-y: auto;
+    }
+  }
