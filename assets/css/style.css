@@ -92,5 +92,9 @@ carousel-text{
       }
       #carouselExampleIndicators {
         background-color:#F499C1;
-
       }
+    /*Contact-Form-------------------------------------------------------------------------------- */
+.contact-box {
+    padding: 5%;
+    background-color: lavender;
+}
