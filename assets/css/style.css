@@ -46,8 +46,8 @@ carousel-text{
     font-family: "work sans", sans-serif;
 }
 .callout-header{
-  font-family: "caveat", sans-serif;
-  font-weight: bolder;
+  font-family: "fira sans", sans-serif;
+  font-weight: bold;
   text-align: center;
 }
 .callout-text{
@@ -95,9 +95,11 @@ carousel-text{
     border-radius: 10px;
   }
 .callout-container {
-  padding: 75px;
-  background-color: rgba(230, 230, 250, 0.541);
-  border-radius: 10px;}
+  padding: 65px;
+  /*background-color: rgba(230, 230, 250, 0.541);*/
+  border-radius: 10px;
+  background-color: #f499c054;
+}
   
     /*Carousel-------------------------------------------------------------------------------- */
     .blockquote-footer {
@@ -110,16 +112,26 @@ carousel-text{
         padding: 100px;
       }
       #carouselExampleIndicators {
-        background-color: rgba(230, 230, 250, 0.541);
+        background-color: #e4dfdf(43, 43, 192, 0.541);
         border-radius: 10px;
       }
       .carousel-container {
         position: relative; /* Ensure relative positioning for the carousel */
-        z-index: 3; /* Ensure the carousel is above the overlay */      }
+        z-index: 3; /* Ensure the carousel is above the overlay */      
+        background-color: #f499c054;  
+        border-radius: 10px;
+      }
+        .carousel-indicators li {
+          background-color: grey; /* Replace with your desired color for inactive indicators */
+      }
+        .carousel-indicators .active {
+          background-color: #F499C1; /* Active color */
+        }
+        
     /*Contact-Form-------------------------------------------------------------------------------- */
 .contact-box {
     padding: 5%;
-    background-color: lavender;
+    background-color: #f499c054;
     border-radius: 10px; 
 }
 form{
@@ -180,4 +192,49 @@ form{
         padding: 25px 0;
         margin: 25px 0;
       }
+      /*index cards-------------------------------------------------------------------------------- */
+      .custom-card {
+        padding: 20px;
+      }
+      .index-card-img{
+        border-radius: 8px;
+      }
       
+      .custom-card .card-title {
+        font-family: "Fira Sans", sans-serif;
+        font-weight: bold;
+        text-align: center;
+        color: #333;
+        margin-top: 10px;
+        margin-bottom: 10px; /* Add margin bottom to separate title from text */
+      }
+      
+      .custom-card .card-text {
+        font-family: "Work Sans", sans-serif;
+        color: #333;
+        text-decoration: none;
+      }
+      
+      .custom-card .btn.my-button {
+        text-align: center;
+        display: block; /* Make button a block element */
+        margin-top: 10px;
+        padding: 10px 20px; /* Add padding to button */
+        border: none; /* Remove button border */
+        border-radius: 5px; /* Add border radius */      }
+      
+      .custom-card .btn.my-button:hover {
+        background-color: #ffffff; /* Change button background color on hover */
+      }
+      
+      .custom-card .card-body {
+        padding: 0; /* Remove padding from card body */
+      }
+      
+      .custom-card .card-link {
+        text-decoration: none; /* Remove underline from card link */
+      }
+      
+      .custom-card img {
+        width: 100%; /* Make image responsive */
+      }
