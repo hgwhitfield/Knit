@@ -70,19 +70,19 @@ carousel-text{
       display: flex;
       flex-direction: column;
       max-width: 90%;
-      max-height: calc(100vh - 56px); /* Adjust the value as needed */
+      max-height: calc(100vh - 56px);
       overflow-y: auto;
     }
   }
   .navbar-brand .logo-svg {
-    width: 200px; /* Default width */
-    height: auto; /* Maintain aspect ratio */
+    width: 200px;
+    height: auto;
 }
 
 /* Smaller logo size on smaller screens */
 @media (max-width: 767px) {
     .navbar-brand .logo-svg {
-        width: 115px; /* Adjust width for smaller screens */
+        width: 115px;
     }
 }
 .logo-svg:hover {
@@ -105,7 +105,6 @@ carousel-text{
     .blockquote-footer {
         margin-top: 30px;
       }
-      
       .review-text-styling {
         font-family: "fira sans", sans-serif;
         text-align: center;
@@ -116,16 +115,18 @@ carousel-text{
         border-radius: 10px;
       }
       .carousel-container {
-        position: relative; /* Ensure relative positioning for the carousel */
-        z-index: 3; /* Ensure the carousel is above the overlay */      
+        position: relative;
+        z-index: 3;  
         background-color: #f499c054;  
         border-radius: 10px;
       }
-        .carousel-indicators li {
-          background-color: grey; /* Replace with your desired color for inactive indicators */
-      }
         .carousel-indicators .active {
-          background-color: #F499C1; /* Active color */
+          background-color: #F499C1;
+        }
+        @media (max-width: 390px) { /* Hides review carousel on smaller phones for style reasons */
+          .carousel-container {
+            display: none;
+          }
         }
         
     /*Contact-Form-------------------------------------------------------------------------------- */
@@ -139,14 +140,14 @@ form{
 }
 @media (max-width: 767px) {
   .row [class*="col-"] {
-    margin-bottom: 20px; /* Add a bottom margin to create a gap */
-  }
+    margin-bottom: 20px; /* Adds a bottom margin on mobile screens */
+}
 }
     /*google-maps-API-Form-------------------------------------------------------------------------------- */
     .google-map-container {
         position: relative;
         overflow: hidden;
-        padding-top: 56.25%; /* 16:9 aspect ratio */
+        padding-top: 56.25%; /*google maps 16:9 aspect ratio */
       }
       
       .google-map-container iframe {
@@ -161,11 +162,11 @@ form{
         flex-wrap: wrap;
       }
        /*Hero Image-------------------------------------------------------------------------------- */
-       #hero-image {
-        max-width: 100%; /* Make sure the image doesn't exceed its container width */
-        height: auto; /* Maintain aspect ratio */
-        margin: 0 auto; /* Center the image horizontally */
-        display: block; /* Ensure the image is treated as a block element */
+       #hero-image {  
+        max-width: 100%; /*keeps images same size as col */
+        height: auto;
+        margin: 0 auto; 
+        display: block;
       }
        /*Club Features Section-------------------------------------------------------------------------------- */
        .feature {
@@ -238,3 +239,13 @@ form{
       .custom-card img {
         width: 100%; /* Make image responsive */
       }
+      .custom-card {
+        transition: transform 0.3s ease-in-out, background-color 0.3s ease-in-out; /* Smooth transition for transform and background-color changes */
+        background-color: #ffffff; /* Default background color */
+      }
+      
+      .custom-card:hover {
+        transform: scale(1.05); /* Slightly increase the size to highlight */
+        background-color: #f499c054; /* Change to the desired highlight background color */
+        border-radius: 10px;
+}
