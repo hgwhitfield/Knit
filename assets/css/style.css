@@ -57,6 +57,14 @@ carousel-text{
 .footer-text{
   font-family: "fira sans", sans-serif;
 }
+.footer-headers {
+  font-size: 1.25rem;
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+.footer-headers i {
+  color: #F499C1;
+}
 /*Navigation-------------------------------------------------------------------------------- */
 .toggler-icon-style {
     padding-right: 100px;
@@ -207,7 +215,7 @@ form{
         text-align: center;
         color: #333;
         margin-top: 10px;
-        margin-bottom: 10px; /* Add margin bottom to separate title from text */
+        margin-bottom: 10px; 
       }
       
       .custom-card .card-text {
@@ -218,34 +226,95 @@ form{
       
       .custom-card .btn.my-button {
         text-align: center;
-        display: block; /* Make button a block element */
+        display: block; 
         margin-top: 10px;
-        padding: 10px 20px; /* Add padding to button */
-        border: none; /* Remove button border */
-        border-radius: 5px; /* Add border radius */      }
+        padding: 10px 20px; 
+        border: none; 
+        border-radius: 5px;    
+       }
       
       .custom-card .btn.my-button:hover {
-        background-color: #ffffff; /* Change button background color on hover */
+        background-color: #ffffff; 
       }
       
       .custom-card .card-body {
-        padding: 0; /* Remove padding from card body */
+        padding: 0; 
       }
       
       .custom-card .card-link {
-        text-decoration: none; /* Remove underline from card link */
+        text-decoration: none; 
       }
       
       .custom-card img {
-        width: 100%; /* Make image responsive */
+        width: 100%; 
       }
       .custom-card {
-        transition: transform 0.3s ease-in-out, background-color 0.3s ease-in-out; /* Smooth transition for transform and background-color changes */
-        background-color: #ffffff; /* Default background color */
+        transition: transform 0.3s ease-in-out, background-color 0.3s ease-in-out; 
+        background-color: #ffffff; 
       }
       
       .custom-card:hover {
-        transform: scale(1.05); /* Slightly increase the size to highlight */
-        background-color: #f499c054; /* Change to the desired highlight background color */
+        transform: scale(1.05); 
+        background-color: #f499c054; 
         border-radius: 10px;
 }
+      /*footer-------------------------------------------------------------------------------- */
+      .nav {
+        margin-top: 1rem; 
+    }
+      .footer-text, .nav, h3 {
+        font-family: "Fira Sans", sans-serif; 
+        font-size: 0.9rem; 
+        line-height: 1.4;
+    }
+
+    #opening-times li, .nav li {
+        margin-bottom: 0.2rem; 
+    }
+    
+
+    .container {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    
+    /* Ensure icons and text align properly and are compact */
+    .nav li {
+        display: flex;
+        align-items: center;
+        gap: 0.5rem; 
+        margin-bottom: 0.5rem;
+    }
+    
+    /* Style for facebook link to make it more visibled */
+    .nav a {
+      color: inherit;
+  }
+  .social-link {
+    text-decoration: underline;}
+
+.social-link:hover,
+.social-link:focus {
+    text-decoration: none;
+    color: #F499C1
+}
+
+.social-link i {
+    transition: transform 0.3s ease;
+}
+
+.social-link:hover i {
+    transform: scale(1.1);
+}
+      /*shop-logos-container-------------------------------------------------------------------------------- */
+      .logo-padding-top {
+        padding-top: 80px;
+    }
+    .logo-container-title {
+      font-family: 'Fira Sans', sans-serif;
+      font-weight: bold;
+      text-align: center; 
+      margin-top: 20px;
+      margin-bottom: 20px;
+      padding-bottom: 20px;
+  }
