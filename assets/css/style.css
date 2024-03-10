@@ -65,6 +65,13 @@ carousel-text{
 .footer-headers i {
   color: #F499C1;
 }
+.with-jan-caveat {
+  font-family: "caveat", sans-serif;
+}
+.knit-natter-style {
+  text-transform: uppercase;
+  letter-spacing: 1.5px; 
+}
 /*Navigation-------------------------------------------------------------------------------- */
 .toggler-icon-style {
     padding-right: 100px;
@@ -131,8 +138,8 @@ carousel-text{
         .carousel-indicators .active {
           background-color: #F499C1;
         }
-        @media (max-width: 390px) { /* Hides review carousel on smaller phones for style reasons */
-          .carousel-container {
+        @media (max-width: 450px) { /* Hides review carousel on smaller phones for style reasons */
+          .carousel-media-containter {
             display: none;
           }
         }
