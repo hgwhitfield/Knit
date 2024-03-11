@@ -1,39 +1,58 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+1. [Purpose of the Project](#1-purpose-of-the-project)
+2. [User Stories](#2-user-stories)
+3. [Strategy](#3-strategy)
+4. [Features](#4-features)
+5. [Future Features](#5-future-features)
+6. [Typography and Color Scheme](#6-typography-and-color-scheme)
+7. [Wireframes](#7-wireframes)
+8. [Technology](#8-technology)
+9. [Testing](#9-testing)
+   - [9.1 Code Validation](#91-code-validation)
+   - [9.2 Test Cases](#92-test-cases)
+   - [9.3 Fixed Bugs](#93-fixed-bugs)
+   - [9.4 Supported Screens and Browsers](#94-supported-screens-and-browsers)
+10. [Deployment](#10-deployment)
+    - [10.1 Via Gitpod](#101-via-gitpod)
+    - [10.2 Via GitHub Pages](#102-via-github-pages)
+11. [Credits](#11-credits)
 
-Welcome,
+# Knit And Natter With Jan
 
-This is the Code Institute student template for Codeanywhere. If you are using Gitpod then you need [this template](https://github.com/Code-Institute-Org/gitpod-full-template) instead.  We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+Knit and Natter with Jan is a website designed as the virtual counterpart of Jan's beloved knitting shop, embodying the same warmth and welcoming atmosphere that the physical store is known for. The platform serves as a resource of information for who wish to know more about the business, offering detailed information about the shop, its offerings, and the vibrant community that gathers there. While the website aims to project a professional and reliable image to instill confidence in potential visitors, it also captures the social and cozy essence that Jan's shop is celebrated for. With a focus on accessibility, the site is crafted to ensure ease of navigation, catering to the diverse age range of the knitting community, from older seasoned enthusiasts to the burgeoning number of younger hobbyists. The goal is to blend functionality with aesthetic appeal, making it a welcoming online space for all knitting aficionados.
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Codeanywhere and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **August 30th, 2023**
+## Purpose of the Project
 
-## Codeanywhere Reminders
+"Knit and Natter with Jan" is a charming, user-friendly website dedicated to Jan's knitting club and shop, a cozy nook for knitting enthusiasts and newcomers alike. This digital space serves as a welcoming introduction to the community and physical store, offering visitors a glimpse into the world of knitting through Jan's eyes. The website is designed to be straightforward and accessible, ensuring that users of all ages and tech-savviness can easily navigate through the content.
 
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere, in the terminal, type:
+The site is structured around key sections that provide essential information to visitors. These include About pages for both the shop and the club, where information about what services we provide are shared, capturing the warmth and community spirit that Jan fosters. The website is an invite to the local community members and visitors to join in and knit together.
 
-`python3 -m http.server`
+The Contact Us page is a crucial touchpoint, offering visitors various ways to reach out, ask questions, and get involved. Whether it's through an email, or a visit to the shop, this section ensures that the community is just a message away.
 
-A button should appear to click: _Open Preview_ or _Open Browser_.
+"Knit and Natter with Jan" aims to extend the warmth and camaraderie of Jan's knitting club and shop into the online realm, inviting knitters and crafters to explore, connect, and create, no matter where they are.
+## User Stories
+I have laid out my user stories as follows:
+As a [type of user], I want [an action] so that [a reason/a value]
 
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere with no-cache, you can use this alias for `python3 -m http.server`.
+**First Time Visitor Goals**
+1. I want to immediately understand the purpose of the site and be able to tell if this is a website that I want to use.
+2. I want to be able to easily navigate throughout the website in order to find out the information that I want.
+3. I want to be able to easily contact the shop/club, in order to address any questions that I may have.
+4. I want to feel put at ease before visiting the club that I will be welcomed.
+6. I want to feel put at ease by the site that the business is proffesional and capable of providing me the service I want.
 
-`http_server`
+## Strategy
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+#### Project Goals
+The primary aim of "Knit and Natter with Jan" is to develop an engaging, static front-end website using HTML5 and CSS3 that effectively communicates the essence of a community-based knitting club and shop. The site aims to present information in a visually appealing manner, ensuring an intuitive user experience that aligns with the interests and goals of its visitors.
 
-A button should appear to click: _Open Preview_ or _Open Browser_.
+#### Business Goals
 
-In Codeanywhere you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+The website's core mission is to enhance the visibility of "Knit and Natter with Jan," ultimately driving membership growth and fostering a loyal community. By presenting a well-designed, informative site, the aim is to convey the value and warmth of the knitting club, encouraging visitors to engage further by visiting the shop or joining the club. It also intends to alleviate anxiety new members of the club may have about turning up to their first club meeting.
 
-To log into the Heroku toolbelt CLI:
+Target Audience: "Knit and Natter with Jan" is geared towards knitting enthusiasts of all skill levels, particularly those within the local area and beyond who seek a supportive community. The target demographic includes individuals who appreciate the therapeutic and social aspects of knitting, ranging from young adults to seniors.
 
-1. Log in to your Heroku account and go to _Account Settings_ in the menu under your avatar.
-2. Scroll down to the _API Key_ and click _Reveal_
-3. Copy the key
-4. In Codeanywhere, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+#### Customer Goals
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+Prospective members and first-time site visitors: The site aims to introduce visitors to the welcoming and inclusive atmosphere of Jan's knitting club, highlight the benefits of joining the community, provide information on the services that the business provides and encourage them to become a part of the vibrant knitting circle.
 
----
-
-Happy coding!
+For the future, there are plans for the site to include a section for members to get and share knitting patterns, instructional videos, and be able to engage on days we aren't open so that the business can further engage the community and enhance the experience. Future updates will provide business specific pictures and a place to display some of the work completed by members of the club, to make the website a more personable experience.
