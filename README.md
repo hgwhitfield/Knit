@@ -77,7 +77,7 @@ Here is a list of the features that are currently implemented on the website as 
 -The image scales to different sizes depending on the screen size. This allows the entire image to always be visible.
 -similar images are used on other pages to add a sense of continuity across the site.
 
-###Index nav cards
+### Index nav cards
 
 - The Navigation cards on the index page allow an introduction to the different services the business provides in a easy to digest way and a large easily understood way to instantly know how to naviage to where you can then learn more about those things. This allows two goals to be met at once.
 - They are stylised and animated on hover this gives a nice user experience and robust tactile sense that they are clickable elements.
