@@ -202,7 +202,8 @@ form{
       }
       .feature p {
         font-size: 16px;
-        color: #555;
+        font-family: "fira sans" sans-serif;
+        color: #333;
       }
       .feature-section {
         padding: 25px 0;
