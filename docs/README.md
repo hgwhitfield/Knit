@@ -156,7 +156,7 @@ Here is a list of the features that are currently implemented on the website as 
 
 ## Wire Frames
 
-![homepage desktop wireframe](docs/images/home-desktop.png)
+![homepage desktop wireframe](../docs/images/home-desktop.png)
 ![homepage desktop wireframe](docs/images/home-tablet.png)
 ![homepage desktop wireframe](docs/images/home-phone.png)
 ![homepage desktop wireframe](docs/images/shop-desktop.png)
@@ -164,10 +164,10 @@ Here is a list of the features that are currently implemented on the website as 
 ![homepage desktop wireframe](docs/images/shop-phone.png)
 ![homepage desktop wireframe](docs/images/club-desktop.png)
 ![homepage desktop wireframe](docs/images/club-tablet.png)
-![homepage desktop wireframe](docs/images/club-phone.png)
-![homepage desktop wireframe](docs/images/contact-desktop.png)
-![homepage desktop wireframe](docs/images/contact-tablet.png)
-![homepage desktop wireframe](docs/images/contact-phone.png)
+![homepage desktop wireframe](../docs/images/club-phone.png)
+![homepage desktop wireframe](../docs/images/contact-desktop.png)
+![homepage desktop wireframe](../docs/images/contact-tablet.png)
+![homepage desktop wireframe](../docs/images/contact-phone.png)
 
 
 
