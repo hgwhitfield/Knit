@@ -1,220 +1,254 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
-        <script src="https://kit.fontawesome.com/f3cc1db3ac.js" crossorigin="anonymous"></script>
-        <link rel="stylesheet" href="assets/css/style.css">
-        <title>Header and Footer</title>
-    </head>
-    <body>
-      <!-- Navbar -->
-        <nav class="navbar navbar-light navbar-expand-lg sticky-top bg-body navbar-bg py-1">
-          <div class="container">
-            <a class="navbar-brand navbar-header" href="index.html" aria-current="page">
-              <img src="assets/images/knit-and-natter-logo.svg" alt="Knit & Natter Logo" class="logo-svg"> <!-- Add your SVG logo here -->
-            </a>
-      
-            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-      
-            <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
-              <div class="offcanvas-header">
-                <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Menu</h5>
-                <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-              </div>
-      
-              <div class="offcanvas-body">
-                <ul class="navbar-nav justify-content-end flex-lg-grow-1 pe-lg-3 nav-item-text">
-                  <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="index.html">Home</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="shop.html">Shop</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="club.html">Club</a>
-                  </li>
-                </ul>
-                <div class="d-grid gap-2 mt-auto mt-lg-0">
-                  <a class="btn my-button button-text" href="contact.html">Get in touch!</a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </nav>
-              <!-- hero image -->
-    <section>
-      <div class="container hero-container">
-        <div class="row">
-            <div class="col-lg-12 d-flex justify-content-center align-items-center">
-                <img id="hero-image" alt="Unwind With Us" src="assets/images/knit-hero-image.png" />
-                <span class="sr-only">An image of pink wool in a basket, with the words "unwind with us" written above it.</span>
-            </div>
-        </div>
-        <hr>
-      </div>
-    </section>
-        <!-- Intro section -->
-        <article class="container px-4 px-lg-0">
-          <div class="row">
-            <div class="col-lg-12 text-center callout-container">
-              <h1 class="callout-header"><span class="knit-natter-style">Knit & Natter</span> <span class="with-jan-caveat">with Jan</span></h1>
-              <p class="callout-text">Hi, I'm Jan. After years of working in healthcare, where nurturing and care are at the heart of every day,
-                 I decided to weave those same values into my own knitting shop and club, Knit and Natter with Jan. As an avid knitter myself, I 
-                 understand the joy and tranquility that comes from knitting, whether you're casting on for the first time or you're about to
-                  bind off a complex pattern. Our doors are open to everyone, from beginners who've never held needles to long-time knitters
-                   looking for their next challenge. We pride ourselves on creating a helpful, welcoming environment that's inclusive of all ages.
-                    At Knit and Natter with Jan, we're more than just a shop; we're a community where every stitch contributes to the tapestry of
-                     our shared passion.</p>            
-              </div>
-          </div>
-          <hr>
-        </article>
-            <!---Navigation Cards-->
-<div class="container mt-5">
-  <div class="row">
-    <div class="col-md-4">
-      <a href="shop.html" class="card-link">
-        <div class="custom-card">
-          <img src="assets/images/shop.png" class="card-img-top index-card-img" alt="Knitting needles and wool">
-          <div class="card-body">
-            <h5 class="card-title">Shop</h5>
-            <p class="card-text">Learn more about our curated selection of quality yarns, needles, and patterns, perfect for every project and a knitter's dream.</p>
-            <a href="shop.html" class="btn my-button">Learn More</a>
-          </div>
-        </div>
-      </a>
-    </div>
-    <div class="col-md-4">
-      <a href="club.html" class="card-link">
-        <div class="custom-card">
-          <img src="assets/images/club.png" class="card-img-top index-card-img" alt="Woman in a knitting club enjoying a hot drink">
-          <div class="card-body">
-            <h5 class="card-title">Club</h5>
-            <p class="card-text">Explore a welcoming space for knitters of all levels to gather, share skills, and work on projects together in a supportive environment.</p>
-            <a href="club.html" class="btn my-button">Learn More</a>
-          </div>
-        </div>
-      </a>
-    </div>
-    <div class="col-md-4">
-      <a href="contact.html" class="card-link">
-        <div class="custom-card">
-          <img src="assets/images/contact.png" class="card-img-top index-card-img" alt="Small knitted bear next to wool it was knitted with">
-          <div class="card-body">
-            <h5 class="card-title">Contact</h5>
-            <p class="card-text">Need some help or have questions? Just reach out! We're always here to help, ready to guide you through your creative knitting journey.</p>
-            <a href="contact.html" class="btn my-button">Get in touch</a>
-          </div>
-        </div>
-      </a>
-    </div>
-  </div>
-  <hr>
-</div>
 
-    
-              <!-- Review-carousel -->
-              <div class="container carousel-media-containter">
-                <div class="row">
-                    <div class="col-lg-12 mx-auto  mx-auto">
-                        <div class="carousel-container">
-                  <div id="carouselExampleIndicators" class="carousel slide">
-                      <div class="carousel-indicators">
-                          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
-                      </div>
-                      <div class="carousel-inner">
-                          <div class="carousel-item active">
-                              <blockquote class="blockquote review-text-styling">
-                                  <p class="mb-0 carousel-text">Called in to look at yarns and patterns. Was greeted with very friendly and warm welcome from Jan and a group of ladies,
-                                     offered coffee and a seat. Thank you for your help and hospitality.  Sue Doyle.</p>
-                                  <footer class="blockquote-footer">Google review from: <cite title="Source Title">Susan Doyle</cite></footer>
-                              </blockquote>
-                          </div>
-                          <div class="carousel-item">
-                              <blockquote class="blockquote review-text-styling">
-                                  <p class="mb-0 carousel-text">First time here today, and I took my 11 year old daughter. We’ve never knitted before. The ladies were so welcoming and kind and had soon
-                                    helped us choose wool and taught us how to get started knitting scarves! Such a lovely warm place. We will definitely be back.</p>
-                                  <footer class="blockquote-footer">Google review from: <cite title="Source Title">Abbie Hardley</cite></footer>
-                              </blockquote>
-                          </div>
-                          <div class="carousel-item">
-                              <blockquote class="blockquote review-text-styling">
-                                  <p class="mb-0 carousel-text">The best wool shop around.
-                                    You are always sure of a friendly welcome. The staff are always helpful and you can knit and natter the day away with a bunch of friendly ladies.
-                                    The variety of wool is immense and you can have a cup of tea while choosing your pattern and wool.
-                                    If you've never been before give yourself a treat and pay them a visit. You'll be glad you did.</p>
-                                  <footer class="blockquote-footer">Google review from: <cite title="Source Title">Barbara Bailey</cite></footer>
-                              </blockquote>
-                          </div>
-                      </div>
-                      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-                          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                          <span class="visually-hidden">Previous</span>
-                      </button>
-                      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-                          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                          <span class="visually-hidden">Next</span>
-                      </button>
-                  </div>
-              </div>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+  <script src="https://kit.fontawesome.com/f3cc1db3ac.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="assets/css/style.css">
+  <title>Header and Footer</title>
+</head>
+
+<body>
+  <!-- Navbar -->
+  <nav class="navbar navbar-light navbar-expand-lg sticky-top bg-body navbar-bg py-1">
+    <div class="container">
+      <a class="navbar-brand navbar-header" href="index.html" aria-current="page">
+        <img src="assets/images/knit-and-natter-logo.svg" alt="Knit & Natter Logo" class="logo-svg">
+      </a>
+
+      <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
+        aria-controls="offcanvasNavbar">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+        <div class="offcanvas-header">
+          <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Menu</h5>
+          <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+
+        <div class="offcanvas-body">
+          <ul class="navbar-nav justify-content-end flex-lg-grow-1 pe-lg-3 nav-item-text">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="shop.html">Shop</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="club.html">Club</a>
+            </li>
+          </ul>
+          <div class="d-grid gap-2 mt-auto mt-lg-0">
+            <a class="btn my-button button-text" href="contact.html" aria-label="Go to the Contact Us page.">Get in touch!</a>
           </div>
         </div>
-        <hr>
       </div>
-      <!-- Footer -->
-      <footer>
-        <div class="container">
-            <div class="row">
-                <div class="col-md-4">
-                    <h3 class="footer-headers"><i class="fas fa-clock me-2" aria-hidden="true"></i>Opening hours</h3>
-                    <hr>
-                    <ul id="opening-times" class="footer-text">
-                        <li>Monday: 12.00-16.00</li>
-                        <li>Tuesday: 12.00-16.00</li>
-                        <li>Wednesday: 12.00-16.00</li>
-                        <li>Thursday: CLOSED</li>
-                        <li>Friday: 12.00-16.00</li>
-                        <li>Saturday: 12.00-16.00</li>
-                        <li>Sunday: CLOSED</li>
-                    </ul>
-                </div>
-                <div class="col-md-4">
-                    <h3 class="footer-headers"><i class="fas fa-building me-2" aria-hidden="true"></i>Where to find us</h3>
-                    <hr>
-                    <p class="footer-text">
-                        Unit 38<br>Canal Bridge Enterprise Centre<br>Meadow Ln<br>Ellesmere Port<br>CH65 4EH
-                    </p>
-                </div>
-                <div class="col-md-4">
-                    <h3 class="footer-headers"><i class="fas fa-phone me-2" aria-hidden="true"></i>Contact Us</h3>
-                    <hr>
-                    <ul class="nav list-unstyled d-flex flex-column">
-                        <li>
-                            <span>07766605092</span>
-                        </li>
-                        <li>
-                            <a class="social-link" href="https://www.facebook.com/profile.php?id=100057427511222" target="_blank">
-                                <i class="fa-brands fa-facebook me-2" aria-hidden="true"></i>Knit and Natter
-                            </a>
-                        </li>
-                    </ul>
-                </div>              
-            </div>
-            <span class="mb-3 mb-md-0 text-muted">© 2024 Knit and Knatter with Jan</span>
-            <hr>
+    </div>
+  </nav>
+  <!-- hero image -->
+  <section>
+    <div class="container hero-container">
+      <div class="row">
+        <div class="col-lg-12 d-flex justify-content-center align-items-center">
+          <img id="hero-image" alt="Unwind With Us" src="assets/images/knit-hero-image.png" />
+          <span class="sr-only">An image of pink wool in a basket, with the words "unwind with us" written above
+            it.</span>
         </div>
-    </footer>
-    
-    
-<!-- Bootstrap script -->
-        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js" integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V" crossorigin="anonymous"></script>
+      </div>
+      <hr>
+    </div>
+  </section>
+  <!-- Intro section -->
+  <article class="container px-4 px-lg-0">
+    <div class="row">
+      <div class="col-lg-12 text-center callout-container">
+        <h1 class="callout-header"><span class="knit-natter-style">Knit & Natter</span> <span
+            class="with-jan-caveat">with Jan</span></h1>
+        <p class="callout-text">Hi, I'm Jan. After years of working in healthcare, where nurturing and care are at the
+          heart of every day,
+          I decided to weave those same values into my own knitting shop and club, Knit and Natter with Jan. As an avid
+          knitter myself, I
+          understand the joy and tranquility that comes from knitting, whether you're casting on for the first time or
+          you're about to
+          bind off a complex pattern. Our doors are open to everyone, from beginners who've never held needles to
+          long-time knitters
+          looking for their next challenge. We pride ourselves on creating a helpful, welcoming environment that's
+          inclusive of all ages.
+          At Knit and Natter with Jan, we're more than just a shop; we're a community where every stitch contributes to
+          the tapestry of
+          our shared passion.</p>
+      </div>
+    </div>
+    <hr>
+  </article>
+  <!---Navigation Cards-->
+  <div class="container mt-5">
+    <div class="row">
+      <div class="col-md-4">
+        <a href="shop.html" class="card-link">
+          <div class="custom-card">
+            <img src="assets/images/shop.png" class="card-img-top index-card-img" alt="Knitting needles and wool">
+            <div class="card-body">
+              <h5 class="card-title">Shop</h5>
+              <p class="card-text">Learn more about our curated selection of quality yarns, needles, and patterns,
+                perfect for every project and a knitter's dream.</p>
+              <a href="shop.html" aria-label="Click to learn more about Knit and Natter shop" class="btn my-button">Learn More</a>
+            </div>
+          </div>
+        </a>
+      </div>
+      <div class="col-md-4">
+        <a href="club.html" class="card-link">
+          <div class="custom-card">
+            <img src="assets/images/club.png" class="card-img-top index-card-img"
+              alt="Woman in a knitting club enjoying a hot drink">
+            <div class="card-body">
+              <h5 class="card-title">Club</h5>
+              <p class="card-text">Explore a welcoming space for knitters of all levels to gather, share skills, and
+                work on projects together in a supportive environment.</p>
+              <a href="club.html" aria-label="Click to learn more about Knit and Natter club" class="btn my-button">Learn More</a>
+            </div>
+          </div>
+        </a>
+      </div>
+      <div class="col-md-4">
+        <a href="contact.html" class="card-link">
+          <div class="custom-card">
+            <img src="assets/images/contact.png" class="card-img-top index-card-img"
+              alt="Small knitted bear next to wool it was knitted with">
+            <div class="card-body">
+              <h5 class="card-title">Contact</h5>
+              <p class="card-text">Need some help or have questions? Just reach out! We're always here to help, ready to
+                guide you through your creative knitting journey.</p>
+              <a href="contact.html" aria-label="Go to the Contact Us page" class="btn my-button">Get in touch</a>
+            </div>
+          </div>
+        </a>
+      </div>
+    </div>
+    <hr>
+  </div>
+
+
+  <!-- Review-carousel -->
+  <div class="container carousel-media-containter">
+    <div class="row">
+      <div class="col-lg-12 mx-auto  mx-auto">
+        <div class="carousel-container">
+          <div id="carouselExampleIndicators" class="carousel slide">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <blockquote class="blockquote review-text-styling">
+                  <p class="mb-0 carousel-text">Called in to look at yarns and patterns. Was greeted with very friendly
+                    and warm welcome from Jan and a group of ladies,
+                    offered coffee and a seat. Thank you for your help and hospitality. Sue Doyle.</p>
+                  <footer class="blockquote-footer">Google review from: <cite title="Source Title">Susan Doyle</cite>
+                  </footer>
+                </blockquote>
+              </div>
+              <div class="carousel-item">
+                <blockquote class="blockquote review-text-styling">
+                  <p class="mb-0 carousel-text">First time here today, and I took my 11 year old daughter. We’ve never
+                    knitted before. The ladies were so welcoming and kind and had soon
+                    helped us choose wool and taught us how to get started knitting scarves! Such a lovely warm place.
+                    We will definitely be back.</p>
+                  <footer class="blockquote-footer">Google review from: <cite title="Source Title">Abbie Hardley</cite>
+                  </footer>
+                </blockquote>
+              </div>
+              <div class="carousel-item">
+                <blockquote class="blockquote review-text-styling">
+                  <p class="mb-0 carousel-text">The best wool shop around.
+                    You are always sure of a friendly welcome. The staff are always helpful and you can knit and natter
+                    the day away with a bunch of friendly ladies.
+                    The variety of wool is immense and you can have a cup of tea while choosing your pattern and wool.
+                    If you've never been before give yourself a treat and pay them a visit. You'll be glad you did.</p>
+                  <footer class="blockquote-footer">Google review from: <cite title="Source Title">Barbara Bailey</cite>
+                  </footer>
+                </blockquote>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+              data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+              data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <hr>
+  </div>
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4">
+          <h3 class="footer-headers"><i class="fas fa-clock me-2" aria-hidden="true"></i>Opening hours</h3>
+          <hr>
+          <ul id="opening-times" class="footer-text">
+            <li>Monday: 12.00-16.00</li>
+            <li>Tuesday: 12.00-16.00</li>
+            <li>Wednesday: 12.00-16.00</li>
+            <li>Thursday: CLOSED</li>
+            <li>Friday: 12.00-16.00</li>
+            <li>Saturday: 12.00-16.00</li>
+            <li>Sunday: CLOSED</li>
+          </ul>
+        </div>
+        <div class="col-md-4">
+          <h3 class="footer-headers"><i class="fas fa-building me-2" aria-hidden="true"></i>Where to find us</h3>
+          <hr>
+          <p class="footer-text">
+            Unit 38<br>Canal Bridge Enterprise Centre<br>Meadow Ln<br>Ellesmere Port<br>CH65 4EH
+          </p>
+        </div>
+        <div class="col-md-4">
+          <h3 class="footer-headers"><i class="fas fa-phone me-2" aria-hidden="true"></i>Contact Us</h3>
+          <hr>
+          <ul class="nav list-unstyled d-flex flex-column">
+            <li>
+              <span>07766605092</span>
+            </li>
+            <li>
+              <a class="social-link" href="https://www.facebook.com/profile.php?id=100057427511222" target="_blank">
+                <i class="fa-brands fa-facebook me-2" aria-hidden="true"></i>Knit and Natter
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <span class="mb-3 mb-md-0 text-muted">© 2024 Knit and Knatter with Jan</span>
+      <hr>
+    </div>
+  </footer>
+
+
+  <!-- Bootstrap script -->
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+    integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js"
+    integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V"
+    crossorigin="anonymous"></script>
 
 </body>
+
 </html>

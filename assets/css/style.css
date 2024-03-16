@@ -1,330 +1,388 @@
 /*Fonts---------------------------------------------------------------------------------- */
 @import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
 /*remove---------------------------------------------------------------------------------- */
 padding {
   padding: 0;
 }
+
 border {
   border-style: none;
 }
+
 margin {
   margin: 0;
 }
+
 /*colours---------------------------------------------------------------------------------- */
 body {
-    background-color: white;
+  background-color: white;
 }
+
 .pink {
-    background-color: #F499C1;
+  background-color: #F499C1;
 }
+
 /*Text + Headings--------------------------------------------------------------------------- */
-.nav-item-text{
-    font-family: "work sans", sans-serif;
-    font-weight: bold;
+.nav-item-text {
+  font-family: "work sans", sans-serif;
+  font-weight: bold;
 }
-.caveat{
-    font-family: "caveat", sans-serif;
+
+.caveat {
+  font-family: "caveat", sans-serif;
 }
-.navbar-header{
-    font-family: "Fira Sans", sans-serif;
-    color: #F499C1;
-    font-size: x-large;
+
+.navbar-header {
+  font-family: "Fira Sans", sans-serif;
+  color: #F499C1;
+  font-size: x-large;
 }
-.button-text{
-    font-weight: bold;
+
+.button-text {
+  font-weight: bold;
 }
+
 .my-button {
-    background-color: #F499C1;
-    color: #ffffff;
-    font-weight: bold;
+  background-color: #F499C1;
+  color: #ffffff;
+  font-weight: bold;
 }
-.intro-paragraph{
-    font-family: "Fira Sans", sans-serif;
-    color: #000000;
-    font-size: large;
+
+.intro-paragraph {
+  font-family: "Fira Sans", sans-serif;
+  color: #000000;
+  font-size: large;
 }
-carousel-text{
-    font-family: "work sans", sans-serif;
+
+carousel-text {
+  font-family: "work sans", sans-serif;
 }
-.callout-header{
+
+.callout-header {
   font-family: "fira sans", sans-serif;
   font-weight: bold;
   text-align: center;
 }
-.callout-text{
+
+.callout-text {
   font-family: "fira sans", sans-serif;
-  padding: 15px;
+  padding-top: 10px;
 }
-.footer-text{
+
+.footer-text {
   font-family: "fira sans", sans-serif;
 }
+
 .footer-headers {
   font-size: 1.25rem;
   margin-top: 0;
   margin-bottom: 1rem;
 }
+
 .footer-headers i {
   color: #F499C1;
 }
+
 .with-jan-caveat {
   font-family: "caveat", sans-serif;
 }
+
 .knit-natter-style {
   text-transform: uppercase;
-  letter-spacing: 1.5px; 
+  letter-spacing: 1.5px;
 }
+
 /*Navigation-------------------------------------------------------------------------------- */
 .toggler-icon-style {
-    padding-right: 100px;
-    text-align: center;
+  padding-right: 100px;
+  text-align: center;
 }
+
 .offcanvas-header {
-    border-bottom: 1px solid var(--bs-gray-300);
+  border-bottom: 1px solid var(--bs-gray-300);
+}
+
+/* Helps with off canvas appearence on smaller */
+@media (max-width: 991px) {
+  .offcanvas-body {
+    display: flex;
+    flex-direction: column;
+    max-width: 90%;
+    max-height: calc(100vh - 56px);
+    overflow-y: auto;
   }
-  /* Helps with off canvas appearence on smaller */
-  @media (max-width: 991px) {
-    .offcanvas-body {
-      display: flex;
-      flex-direction: column;
-      max-width: 90%;
-      max-height: calc(100vh - 56px);
-      overflow-y: auto;
-    }
-  }
-  .navbar-brand .logo-svg {
-    width: 200px;
-    height: auto;
+}
+
+.navbar-brand .logo-svg {
+  width: 200px;
+  height: auto;
 }
 
 /* Smaller logo size on smaller screens */
 @media (max-width: 767px) {
-    .navbar-brand .logo-svg {
-        width: 115px;
-    }
+  .navbar-brand .logo-svg {
+    width: 115px;
+  }
 }
+
 .logo-svg:hover {
   opacity: 0.9;
   transform: scale(1.05);
   filter: drop-shadow(0 0 2px rgba(0, 0, 0, 0.4));
 }
-  /*callout-------------------------------------------------------------------------------- */
-  #hero-image{
-    border-radius: 10px;
-  }
+
+/*callout-------------------------------------------------------------------------------- */
+#hero-image {
+  border-radius: 10px;
+}
+
 .callout-container {
-  padding: 65px;
+  padding: 10%;
   /*background-color: rgba(230, 230, 250, 0.541);*/
   border-radius: 10px;
   background-color: #f499c054;
 }
-  
-    /*Carousel-------------------------------------------------------------------------------- */
-    .blockquote-footer {
-        margin-top: 30px;
-      }
-      .review-text-styling {
-        font-family: "fira sans", sans-serif;
-        text-align: center;
-        padding: 100px;
-      }
-      #carouselExampleIndicators {
-        background-color: #e4dfdf(43, 43, 192, 0.541);
-        border-radius: 10px;
-      }
-      .carousel-container {
-        position: relative;
-        z-index: 3;  
-        background-color: #f499c054;  
-        border-radius: 10px;
-      }
-        .carousel-indicators .active {
-          background-color: #F499C1;
-        }
-        @media (max-width: 450px) { /* Hides review carousel on smaller phones for style reasons */
-          .carousel-media-containter {
-            display: none;
-          }
-        }
-        
-    /*Contact-Form-------------------------------------------------------------------------------- */
+
+/*Carousel-------------------------------------------------------------------------------- */
+.blockquote-footer {
+  margin-top: 30px;
+}
+
+.review-text-styling {
+  font-family: "fira sans", sans-serif;
+  text-align: center;
+  padding: 100px;
+}
+
+#carouselExampleIndicators {
+  background-color: #e4dfdf(43, 43, 192, 0.541);
+  border-radius: 10px;
+}
+
+.carousel-container {
+  position: relative;
+  z-index: 3;
+  background-color: #f499c054;
+  border-radius: 10px;
+}
+
+.carousel-indicators .active {
+  background-color: #F499C1;
+}
+
+@media (max-width: 450px) {
+
+  /* Hides review carousel on smaller phones for style reasons */
+  .carousel-media-containter {
+    display: none;
+  }
+}
+
+/*Contact-Form-------------------------------------------------------------------------------- */
 .contact-box {
-    padding: 5%;
-    background-color: #f499c054;
-    border-radius: 10px; 
+  padding: 5%;
+  background-color: #f499c054;
+  border-radius: 10px;
 }
-form{
-    padding-bottom: 82px;
+
+form {
+  padding-bottom: 82px;
 }
+
 @media (max-width: 767px) {
   .row [class*="col-"] {
-    margin-bottom: 20px; /* Adds a bottom margin on mobile screens */
-}
-}
-    /*google-maps-API-Form-------------------------------------------------------------------------------- */
-    .google-map-container {
-        position: relative;
-        overflow: hidden;
-        padding-top: 56.25%; /*google maps 16:9 aspect ratio */
-      }
-      
-      .google-map-container iframe {
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
-      }
-      .row {
-        display: flex;
-        flex-wrap: wrap;
-      }
-       /*Hero Image-------------------------------------------------------------------------------- */
-       #hero-image {  
-        max-width: 100%; /*keeps images same size as col */
-        height: auto;
-        margin: 0 auto; 
-        display: block;
-      }
-       /*Club Features Section-------------------------------------------------------------------------------- */
-       .feature {
-        padding: 20px;
-        margin-bottom: 30px;
-        background-color: #fff;
-        border-radius: 10px;
-        box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.1);
-      }
-      .feature i {
-        font-size: 48px;
-        color: #F499C1; 
-      }
-      .feature h3 {
-        margin-top: 20px;
-        margin-bottom: 10px;
-        font-family: "Fira Sans", sans-serif;
-      }
-      .feature p {
-        font-size: 16px;
-        font-family: "fira sans" sans-serif;
-        color: #333;
-      }
-      .feature-section {
-        padding: 25px 0;
-        margin: 25px 0;
-      }
-      /*index cards-------------------------------------------------------------------------------- */
-      .custom-card {
-        padding: 20px;
-      }
-      .index-card-img{
-        border-radius: 8px;
-      }
-      
-      .custom-card .card-title {
-        font-family: "Fira Sans", sans-serif;
-        font-weight: bold;
-        text-align: center;
-        color: #333;
-        margin-top: 10px;
-        margin-bottom: 10px; 
-      }
-      
-      .custom-card .card-text {
-        font-family: "Work Sans", sans-serif;
-        color: #333;
-        text-decoration: none;
-      }
-      
-      .custom-card .btn.my-button {
-        text-align: center;
-        display: block; 
-        margin-top: 10px;
-        padding: 10px 20px; 
-        border: none; 
-        border-radius: 5px;    
-       }
-      
-      .custom-card .btn.my-button:hover {
-        background-color: #ffffff; 
-      }
-      
-      .custom-card .card-body {
-        padding: 0; 
-      }
-      
-      .custom-card .card-link {
-        text-decoration: none; 
-      }
-      
-      .custom-card img {
-        width: 100%; 
-      }
-      .custom-card {
-        transition: transform 0.3s ease-in-out, background-color 0.3s ease-in-out; 
-        background-color: #ffffff; 
-      }
-      
-      .custom-card:hover {
-        transform: scale(1.05); 
-        background-color: #f499c054; 
-        border-radius: 10px;
-}
-      /*footer-------------------------------------------------------------------------------- */
-      .nav {
-        margin-top: 1rem; 
-    }
-      .footer-text, .nav, h3 {
-        font-family: "Fira Sans", sans-serif; 
-        font-size: 0.9rem; 
-        line-height: 1.4;
-    }
-
-    #opening-times li, .nav li {
-        margin-bottom: 0.2rem; 
-    }
-    
-
-    .container {
-        padding-top: 20px;
-        padding-bottom: 20px;
-    }
-    
-    /* Ensure icons and text align properly and are compact */
-    .nav li {
-        display: flex;
-        align-items: center;
-        gap: 0.5rem; 
-        margin-bottom: 0.5rem;
-    }
-    
-    /* Style for facebook link to make it more visibled */
-    .nav a {
-      color: inherit;
+    margin-bottom: 20px;
+    /* Adds a bottom margin on mobile screens */
   }
-  .social-link {
-    text-decoration: underline;}
+}
+
+/*google-maps-API-Form-------------------------------------------------------------------------------- */
+.google-map-container {
+  position: relative;
+  overflow: hidden;
+  padding-top: 56.25%;
+  /*google maps 16:9 aspect ratio */
+}
+
+.google-map-container iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/*Hero Image-------------------------------------------------------------------------------- */
+#hero-image {
+  max-width: 100%;
+  /*keeps images same size as col */
+  height: auto;
+  margin: 0 auto;
+  display: block;
+}
+
+/*Club Features Section-------------------------------------------------------------------------------- */
+.feature {
+  padding: 20px;
+  margin-bottom: 30px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.feature i {
+  font-size: 48px;
+  color: #F499C1;
+}
+
+.feature h3 {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  font-family: "Fira Sans", sans-serif;
+}
+
+.feature p {
+  font-size: 16px;
+  font-family: "fira sans" sans-serif;
+  color: #333;
+}
+
+.feature-section {
+  padding: 25px 0;
+  margin: 25px 0;
+}
+
+/*index cards-------------------------------------------------------------------------------- */
+.custom-card {
+  padding: 20px;
+}
+
+.index-card-img {
+  border-radius: 8px;
+}
+
+.custom-card .card-title {
+  font-family: "Fira Sans", sans-serif;
+  font-weight: bold;
+  text-align: center;
+  color: #333;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.custom-card .card-text {
+  font-family: "Work Sans", sans-serif;
+  color: #333;
+  text-decoration: none;
+}
+
+.custom-card .btn.my-button {
+  text-align: center;
+  display: block;
+  margin-top: 10px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+}
+
+.custom-card .btn.my-button:hover {
+  background-color: #ffffff;
+}
+
+.custom-card .card-body {
+  padding: 0;
+}
+
+.custom-card .card-link {
+  text-decoration: none;
+}
+
+.custom-card img {
+  width: 100%;
+}
+
+.custom-card {
+  transition: transform 0.3s ease-in-out, background-color 0.3s ease-in-out;
+  background-color: #ffffff;
+}
+
+.custom-card:hover {
+  transform: scale(1.05);
+  background-color: #f499c054;
+  border-radius: 10px;
+}
+
+/*footer-------------------------------------------------------------------------------- */
+.nav {
+  margin-top: 1rem;
+}
+
+.footer-text,
+.nav,
+h3 {
+  font-family: "Fira Sans", sans-serif;
+  font-size: 0.9rem;
+  line-height: 1.4;
+}
+
+#opening-times li,
+.nav li {
+  margin-bottom: 0.2rem;
+}
+
+
+.container {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+/* Ensure icons and text align properly and are compact */
+.nav li {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+/* Style for facebook link to make it more visibled */
+.nav a {
+  color: inherit;
+}
+
+.social-link {
+  text-decoration: underline;
+}
 
 .social-link:hover,
 .social-link:focus {
-    text-decoration: none;
-    color: #F499C1
+  text-decoration: none;
+  color: #F499C1
 }
 
 .social-link i {
-    transition: transform 0.3s ease;
+  transition: transform 0.3s ease;
 }
 
 .social-link:hover i {
-    transform: scale(1.1);
+  transform: scale(1.1);
 }
-      /*shop-logos-container-------------------------------------------------------------------------------- */
-      .logo-padding-top {
-        padding-top: 80px;
-    }
-    .logo-container-title {
-      font-family: 'Fira Sans', sans-serif;
-      font-weight: bold;
-      text-align: center; 
-      margin-top: 20px;
-      margin-bottom: 20px;
-      padding-bottom: 20px;
-  }
+
+/*shop-logos-container-------------------------------------------------------------------------------- */
+.logo-padding-top {
+  padding-top: 80px;
+}
+
+.logo-container-title {
+  font-family: 'Fira Sans', sans-serif;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+}
