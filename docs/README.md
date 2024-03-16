@@ -130,6 +130,8 @@ Here is a list of the features that are currently implemented on the website as 
 
 ### Colors:
 
+![homepage desktop wireframe](docs/images/colour-pallete-crop.jpg)
+
 ### Body : 
 
 #white is used on the body to give a clean base for styling.
@@ -153,5 +155,19 @@ Here is a list of the features that are currently implemented on the website as 
 - 'Caveat' is the other font used in the logo and this is used to style the 'with Jan' in the h1 on the index page. Also used for branding continuity. 
 
 ## Wire Frames
+
+![homepage desktop wireframe](docs/images/home-desktop.png)
+![homepage desktop wireframe](docs/images/home-tablet.png)
+![homepage desktop wireframe](docs/images/home-phone.png)
+![homepage desktop wireframe](docs/images/shop-desktop.png)
+![homepage desktop wireframe](docs/images/shop-tablet.png)
+![homepage desktop wireframe](docs/images/shop-phone.png)
+![homepage desktop wireframe](docs/images/club-desktop.png)
+![homepage desktop wireframe](docs/images/club-tablet.png)
+![homepage desktop wireframe](docs/images/club-phone.png)
+![homepage desktop wireframe](docs/images/contact-desktop.png)
+![homepage desktop wireframe](docs/images/contact-tablet.png)
+![homepage desktop wireframe](docs/images/contact-phone.png)
+
 
 
