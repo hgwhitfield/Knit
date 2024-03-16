@@ -198,19 +198,10 @@ form {
 }
 
 /*google-maps-API-Form-------------------------------------------------------------------------------- */
-.google-map-container {
-  position: relative;
-  overflow: hidden;
-  padding-top: 56.25%;
-  /*google maps 16:9 aspect ratio */
-}
-
-.google-map-container iframe {
-  position: absolute;
-  top: 0;
-  left: 0;
+iframe {
   width: 100%;
-  height: 100%;
+  height: 300px;
+  border: 0;
 }
 
 .row {
@@ -277,7 +268,7 @@ form {
 }
 
 .custom-card .card-text {
-  font-family: "Work Sans", sans-serif;
+  font-family: "Fira sans", sans-serif;
   color: #333;
   text-decoration: none;
 }
@@ -293,13 +284,14 @@ form {
 
 .custom-card .btn.my-button:hover {
   background-color: #ffffff;
+  color: #333;
 }
 
 .custom-card .card-body {
   padding: 0;
 }
 
-.custom-card .card-link {
+.card-link {
   text-decoration: none;
 }
 
@@ -317,7 +309,9 @@ form {
   background-color: #f499c054;
   border-radius: 10px;
 }
-
+.custom-card a {
+  text-decoration: none;
+}
 /*footer-------------------------------------------------------------------------------- */
 .nav {
   margin-top: 1rem;
