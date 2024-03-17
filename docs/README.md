@@ -344,7 +344,7 @@ The project was successfully deployed using Gitpod. Here's how you can deploy yo
 - Within the Gitpod workspace, open the Terminal and execute the command python3 -m http.server.
 - Shortly after, a blue notification will appear at the bottom right corner, offering options to either make the server public, preview it, or open it in a browser.
 
-#### Via GitHub
+#### Via GitHub Pages
 
 The project was also deployed on GitHub Pages. To deploy your project on GitHub Pages, follow these steps:
 
