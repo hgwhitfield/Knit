@@ -1,24 +1,27 @@
-1. [Purpose of the Project](#1-purpose-of-the-project)
-2. [User Stories](#2-user-stories)
-3. [Strategy](#3-strategy)
-4. [Features](#4-features)
-5. [Future Features](#5-future-features)
-6. [Typography and Color Scheme](#6-typography-and-color-scheme)
-7. [Wireframes](#7-wireframes)
-8. [Technology](#8-technology)
-9. [Testing](#9-testing)
-   - [9.1 Code Validation](#91-code-validation)
-   - [9.2 Test Cases](#92-test-cases)
-   - [9.3 Fixed Bugs](#93-fixed-bugs)
-   - [9.4 Supported Screens and Browsers](#94-supported-screens-and-browsers)
-10. [Deployment](#10-deployment)
-    - [10.1 Via Gitpod](#101-via-gitpod)
-    - [10.2 Via GitHub Pages](#102-via-github-pages)
-11. [Credits](#11-credits)
-
 # Knit And Natter With Jan
 
-Knit and Natter with Jan is a website designed as the virtual counterpart of Jan's beloved knitting shop, embodying the same warmth and welcoming atmosphere that the physical store is known for. The platform serves as a resource of information for who wish to know more about the business, offering detailed information about the shop, its offerings, and the vibrant community that gathers there. While the website aims to project a professional and reliable image to instill confidence in potential visitors, it also captures the social and cozy essence that Jan's shop is celebrated for. With a focus on accessibility, the site is crafted to ensure ease of navigation, catering to the diverse age range of the knitting community, from older seasoned enthusiasts to the burgeoning number of younger hobbyists. The goal is to blend functionality with aesthetic appeal, making it a welcoming online space for all knitting aficionados.
+:computer: View the live site **[here](https://hgwhitfield.github.io/Knit/)**
+
+Knit and Natter with Jan is a website designed as the virtual counterpart of Jan's beloved knitting shop, embodying the same warmth and welcoming atmosphere that the physical store is known for. The platform serves as a resource of information for those who wish to know more about the business, offering detailed information about the shop, its offerings, and the vibrant community that gathers there. While the website aims to project a professional and reliable image to instill confidence in potential visitors, it also captures the social and cozy essence that Jan's shop is celebrated for. With a focus on accessibility, the site is crafted to ensure ease of navigation, catering to the diverse age range of the knitting community, from older seasoned enthusiasts to the burgeoning number of younger hobbyists. The goal is to blend functionality with aesthetic appeal, making it a welcoming online space for all knitting aficionados.
+
+1. [Purpose of the Project](#purpose-of-the-project)
+2. [User Stories](#user-stories)
+3. [Strategy](#strategy)
+4. [Features](#features)
+5. [Future Features](#future-features)
+6. [Typography and Color Scheme](#typography-and-color-scheme)
+7. [Wireframes](#wireframes)
+8. [Technology](#technology)
+9. [Testing](#testing)
+   - [Code Validation](#code-validation)
+   - [Test Cases](#test-cases)
+   - [Fixed Bugs](#fixed-bugs)
+   - [Supported Screens and Browsers](#supported-screens-and-browsers)
+10. [Deployment](#deployment)
+    - [Via Gitpod](#via-gitpod)
+    - [Via GitHub Pages](#via-github-pages)
+11. [Credits](#credits)
+
 
 ## Purpose of the Project
 
@@ -29,16 +32,17 @@ The site is structured around key sections that provide essential information to
 The Contact Us page is a crucial touchpoint, offering visitors various ways to reach out, ask questions, and get involved. Whether it's through an email, or a visit to the shop, this section ensures that the community is just a message away.
 
 "Knit and Natter with Jan" aims to extend the warmth and camaraderie of Jan's knitting club and shop into the online realm, inviting knitters and crafters to explore, connect, and create, no matter where they are.
+
 ## User Stories
 I have laid out my user stories as follows:
 As a [type of user], I want [an action] so that [a reason/a value]
 
 **First Time Visitor Goals**
-1. I want to immediately understand the purpose of the site and be able to tell if this is a website that I want to use.
+1. I want to understand the purpose of the site and be able to tell if this is a website that I want to use within the index page.
 2. I want to be able to easily navigate throughout the website in order to find out the information that I want.
 3. I want to be able to easily contact the shop/club, in order to address any questions that I may have.
 4. I want to feel put at ease before visiting the club that I will be welcomed.
-6. I want to feel put at ease by the site that the business is proffesional and capable of providing me the service I want.
+5. I want to feel put at ease by the site that the business is proffesional and capable of providing me the service I want.
 
 ## Strategy
 
@@ -65,28 +69,28 @@ Here is a list of the features that are currently implemented on the website as 
 
 ### Navbar:
 
--The navbar prominently displays the "Knit and Natter with Jan" logo, which serves as a welcoming emblem for your community of knitting enthusiasts.
--Clicking on the logo conveniently brings users back to the homepage, ensuring easy navigation and a home base for visitors to return. It is also has a fun hover effect to provide tactile feedback and improve the overall feel of the site.
--The navbar includes easy to understand menu options for different sections of the site, such as "Shop" "Club" and "Get in touch!"
--The entire navbar is responsive, adapting to different screen sizes. On larger desktop screens it is a complete navbar with all sections are visible to be clicked on straight away. On mobiles and ipads it utilises a hamburger symbol and the menu utilises the 'offcanvas' effect to intuitvely appear from the side of the screen.
+- The navbar prominently displays the "Knit and Natter with Jan" logo, which serves as a welcoming emblem for your community of knitting enthusiasts.
+- Clicking on the logo conveniently brings users back to the homepage, ensuring easy navigation and a home base for visitors to return. It is also has a fun hover effect to provide tactile feedback and improve the overall feel of the site.
+- The navbar includes easy to understand menu options for different sections of the site, such as "Shop" "Club" and "Get in touch!"
+- The entire navbar is responsive, adapting to different screen sizes. On larger desktop screens it is a complete navbar with all sections are visible to be clicked on straight away. On mobiles and ipads it utilises a hamburger symbol and the menu utilises the 'offcanvas' effect to intuitvely appear from the side of the screen.
 
 ### Hero Image
 
-- On opening the home page there is a hero image at the top of the screen. This fun design is to add a welcoming tone to the site and it's tagline 'unwind with us'. Is both a fun pun and a call to action for the customer to visit while maintaining the chilled out 'vibe' that jan maintains in her business.
+- On opening the home page there is a hero image at the top of the screen. This fun design is to add a welcoming tone to the site and its tagline 'unwind with us'. Is both a fun pun and a call to action for the customer to visit while maintaining the chilled out 'vibe' that jan maintains in her business.
 - The image is in fitting with the design of the page both in colour (of the wool pictured and the tagline) and in font though this has been styled by the designer.
--The image scales to different sizes depending on the screen size. This allows the entire image to always be visible.
--similar images are used on other pages to add a sense of continuity across the site.
+- The image scales to different sizes depending on the screen size. This allows the entire image to always be visible.
+- Similar images are used on other pages to add a sense of continuity across the site.
 
 ### Index nav cards
 
-- The Navigation cards on the index page allow an introduction to the different services the business provides in a easy to digest way and a large easily understood way to instantly know how to naviage to where you can then learn more about those things. This allows two goals to be met at once.
-- They are stylised and animated on hover this gives a nice user experience and robust tactile sense that they are clickable elements.
+- The navigation cards on the index page provide a concise and intuitive introduction to the various services offered by the business. They present information in an easily digestible manner, enabling users to quickly identify and navigate to the sections of interest for further exploration. This dual-purpose design efficiently fulfills both informational and navigational needs.
+- They are stylised and animated on hover, this gives the user a robust tactile sense that they are clickable elements.
 - They are adapatable to all screen sizes appearing as a row in larger screen sizes and in a column in smaller ones.
-- Every card has an image attached, the image is relevant in some way to the page it links to at least thematically and allows for some visual story telling and provoke an emotional responce from the user.
+- Every card has an image attached, the image is relevant in some way to the page it links to at least thematically and allows for some visual story telling to provoke an emotional response from the user.
 
 ### Review Carousel
 
--The Review carousel was implented as a way to show 0ff the good reviews of the business and to help create a feeling of security in the brand and a desire to get involved.
+- The Review carousel was implented as a way to show 0ff the good reviews of the business and to help create a feeling of security in the brand and a desire to get involved.
 - It allows an interactive way for the the user to see several of the good reviews the business has recieved but in a way that doesn't take up too much screen real estate and clutter the site. Users who want to read multiple reviews can work across the carousel and read them and user who don't desire don't have to scroll through reams of text to get to the information in the footer.
 - The carousel adapts to different screen sizes. In larger screen sizes (desktop, tablet) it is a visual feature. On smaller screen sizes it disappears altogether as to not clutter the site and keep it snappy. The carousel visually becomes unsitely under a certain size and this suited the mobile site style more also.
 
@@ -124,27 +128,27 @@ Here is a list of the features that are currently implemented on the website as 
 - First planned changes are in the content of the site. Better more bespoke images will replace or be added alongside stock images to create a more personable feel.
 - A members log in with a place to share knitting patterns.
 - A social media intergration or area for the business to self upload images of new things created by the club.
--In the medium to longer term we have a vision for a e-commerce site.
+- In the medium to longer term, we envision incorporating an e-commerce aspect to the site.
 
 ## Typography and color scheme
 
 ### Colors:
 
-![homepage desktop wireframe](docs/images/colour-pallete-crop.jpg)
+![Colour Pallete](../docs/images/colour-pallete.jpg)
 
 ### Body : 
 
-#white is used on the body to give a clean base for styling.
+#FFFFFF is used on the body to give a clean base for styling.
 
-### Logo, icons, buttons, font-awesome icons and ancillary items :
+### Logo, Icons, Buttons, Font-Awesome Icons and Miscellaneous Items:
 
 #F499C1 This pink colour originates from the logo of the business. I have used it throughtout to give the business branding continuity.
 
-### Bootstrap Container Icons :
+### Bootstrap Container Icons:
 
-#f499c054 This is a more transparent and paler change to the pink branding colour. It moslty used as a background to text in bootstrap containers. It allows for continuity without over filling the page with the harsher logo pink and make it easier for users to read text.
+#f499c054 This is a more transparent and paler change to the pink branding colour. It is moslty used as a background to text in bootstrap containers. It allows for continuity without over filling the page with the harsher logo pink and make it easier for users to read text.
 
-### Text :
+### Text:
 
 #333 black choosen to be easy to read over background colours and for its simple timeless nature.
 
@@ -154,20 +158,206 @@ Here is a list of the features that are currently implemented on the website as 
 
 - 'Caveat' is the other font used in the logo and this is used to style the 'with Jan' in the h1 on the index page. Also used for branding continuity. 
 
-## Wire Frames
+## Wireframes
 
-![homepage desktop wireframe](../docs/images/home-desktop.png)
-![homepage desktop wireframe](docs/images/home-tablet.png)
-![homepage desktop wireframe](docs/images/home-phone.png)
-![homepage desktop wireframe](docs/images/shop-desktop.png)
-![homepage desktop wireframe](docs/images/shop-tablet.png)
-![homepage desktop wireframe](docs/images/shop-phone.png)
-![homepage desktop wireframe](docs/images/club-desktop.png)
-![homepage desktop wireframe](docs/images/club-tablet.png)
-![homepage desktop wireframe](../docs/images/club-phone.png)
-![homepage desktop wireframe](../docs/images/contact-desktop.png)
-![homepage desktop wireframe](../docs/images/contact-tablet.png)
-![homepage desktop wireframe](../docs/images/contact-phone.png)
+#### Index Wireframes:
+![Index Wireframes](../docs/images/home-wireframes-02.png)
 
+#### Shop Wireframes: 
+![Shop Wireframes](../docs/images/shop-wireframes-03.png)
+
+#### Club Wireframes:
+![Club Wireframes](../docs/images/club-wireframes-01.png)
+
+#### Contact Wireframes: 
+![Contact Wireframes](../docs/images/contact-wireframes-04.png)
 
 
+## Technology
+
+1. HTML: To create the structure and the content of the website
+
+2. CSS: To create the style for the website and its content
+
+3. [Git:](https://git-scm.com/) Used for version control.
+
+4. [Gitpod](https://www.gitpod.io/) Was used as the coding enviorment. 
+
+5. [Github](https://github.com/) To store, host and deploy the website
+
+6. [Balsamiq](https://balsamiq.com/) To create the wireframes for the design process.
+
+7. [Bootstrap](https://getbootstrap.com/) Utilised for the grid system and some of the 'card' features.
+
+8. [Google Fonts](https://fonts.google.com/) For the fonts on the site.
+
+9. [Font Awesome](https://fontawesome.com/) For the icons on the site.
+
+## Testing
+
+### Code Validation
+![W3 CSS validation](../docs/images/w3-css-validation.png)
+
+![NU HTML validation index](../docs/images/nu-index-validation.png)
+
+![NU HTML validation shop](../docs/images/nu-shop-validation.png)
+
+![NU HTML validation club](../docs/images/nu-club-validation.png)
+
+![NU HTML validation contact](../docs/images/nu-contact-validation.png)
+
+### Lighthouse
+![Lighthouse index](../docs/images/lighthouse-index.png)
+![Lighthouse shop](../docs/images/lighthouse-shop.png)
+
+![Lighthouse club](../docs/images/lighthouse-club.png)
+![Lighthouse contact](../docs/images/lighthouse-contact.png)
+
+### Test Cases
+
+
+#### User Story Test Case: I want to be able to easily contact the shop/club, in order to address any questions that I may have.
+
+![Homepage Screenshot](../docs/images/user-test-1.jpg)
+
+- On entering the website homepage I scroll down and see the 'Contact' and 'Get In touch' 
+
+![Contact card Screenshot](../docs/images/user-test-2.jpg)
+
+- After seeing this large easy to understand element I click on it and I'm lead to the 'Contact' page.
+
+![Contact page Screenshot](../docs/images/user-test-3.jpg)
+
+- Apart from the Navbar the first thing on the page is the Contact Form. Unfamiliar users may try to submit without filling out details. So the required element is in all fields to give them help and to make sure we don't receieve bad data.
+
+- I may forget to fill out a segment, the website will prompt me to fill it out helping me avoid any confusion.
+
+![Contact page 2 Screenshot](../docs/images/user-test-4.jpg)
+
+- Once all areas are filled out the submit button will then have an effect and send my message.
+
+![Form Dump Screenshot](../docs/images/user-test-5.jpg)
+
+- I am then taken to the codeinstitute formdump page and my message is sent. I can then wait for a reply to my email address.
+
+#### User Story Test Case: I want to be able to easily navigate throughout the website in order to find out the information that I want.
+
+- From the index page if I want to navigate I have two options. 
+
+![Homepage Screenshot](../docs/images/user-test-1.jpg)
+
+- If I scroll down the page I come to the navigation card section. These are large cards that are fully clickable that give a summary of the different website pages and will navigate you there.
+
+![Contact card 1 Screenshot](../docs/images/user-test-a.jpg)
+![Contact Card 2 Screenshot](../docs/images/user-test-b.jpg)
+![Contact Card 3 Screenshot](../docs/images/user-test-c.jpg)
+
+- On clicking anywhere on the card I am taken to my preffered part of the site and already have been given an indication of what I will find there beyond the title.
+
+- Alternatively, on entering the website I see the navbar. On mobile and tablet I see the easily recongised and well known 'hamburger icon'. I know from experiece this will provide me with a menu.
+
+![Hamburger Icon hightlighted Screenshot](../docs/images/user-test-d.jpg)
+
+- On clicking the icon I get an offcanvas menu giving me a list of easy to understand menu options I can quickly and easily navigate too.
+
+![Offcanvas menu Screenshot](../docs/images/user-test-e.jpg)
+
+User stories were tested on mobile as from research it is the more popular way to view websites now.
+
+
+
+### Fixed Bugs
+
+- When testing my website with my mentor we discovered that in smaller mobile screen sizes the padding for the text was off making the website unreadable. I implented a media query and changed a padding setting from a pixel amount to a percentage and this fixed the issue.
+
+- My 'offcanvas menu' wasn't appearing correctly on some mobile screens initially. I made some changes with a media query and got this to work correctly.
+
+### Supported Screens and Browsers
+
+The website underwent extensive testing on a diverse array of devices to ensure optimal responsiveness and compatibility, utilizing Google Developer Tools for precise emulation. The testing covered a wide spectrum of devices, including various models from leading brands and specific devices known for unique screen sizes or operating systems. Here's a condensed list, categorized by brand and device type for clarity:
+
+#### Samsung Galaxy Series:
+
+- Galaxy S3, S8, S9 Plus S20 Ultra 
+- Note 2, Note 3 
+- A51
+- Galaxy Tab S4
+- Galaxy Fold
+
+#### Apple Devices:
+
+- iPhones: iPhone 4, SE (1st gen), 6, 7, 8, X, XR, 12 Pro, 14 pro max
+- iPads: iPad,, iPad Air, iPad Pro
+
+#### Google Devices:
+
+- Pixel 3, 3 XL, 4, 5
+- Nexus 7, 10
+
+#### Nexus Phones:
+
+- Nexus 4, 5, 5X, 6, 6P
+
+#### Blackberry Devices:
+
+- Blackberry Z30
+- Blackberry PlayBook
+
+#### Amazon Devices:
+
+- Kindle Fire HDX
+
+#### LG Phones:
+
+- LG Optimus L70
+
+#### Microsoft Devices:
+
+- Surface Pro 7
+- Surface Duo
+
+#### Motorola Phones:
+
+- Moto G4
+
+#### Nokia Phones:
+
+- Lumia 520
+- N9
+
+
+#### Smart Displays:
+
+- Nest Hub
+- Nest Hub Max
+
+## Deployment
+
+#### Via Gitpod
+
+The project was successfully deployed using Gitpod. Here's how you can deploy your project on Gitpod:
+
+- Navigate to GitHub and find the repository you want to deploy using Gitpod.
+- Click on the "Gitpod" button, which you can find on the top right section of your repository page.
+- This action will initiate a new workspace in Gitpod for the project.
+- Within the Gitpod workspace, open the Terminal and execute the command python3 -m http.server.
+- Shortly after, a blue notification will appear at the bottom right corner, offering options to either make the server public, preview it, or open it in a browser.
+
+#### Via GitHub
+
+The project was also deployed on GitHub Pages. To deploy your project on GitHub Pages, follow these steps:
+
+- Sign into your GitHub account and select the repository intended for deployment to GitHub Pages.
+- Navigate to the repository's "Settings" by clicking the button located on the top right corner of the repository section.
+- On the Settings page, scroll down until you find the "GitHub Pages" section in the left-hand menu.
+- In the "Source" section, click on the dropdown menu labeled "Branch" and change it from "None" to "Master".
+- The website will refresh automatically, and the deployment link will be displayed at the top of the GitHub Pages section.
+
+## Credits
+
+- Bootstrap version 5's comprehensive examples and documentation. This provided the basis for the idea for the card sections on the Index and Club pages. I also used the example code for the carousel as a starting off point for my review carousel.
+- I took inspiration from the Whiskey project for hero image at the top of the page even though stylistically different it was a jumping off point.
+- CHATGPT for help in trouble shooting some code issues I had when trying to size my containers, and for helping me get started with some of the larger pieces of text on the site.
+- Pexels and Unsplash for providing the stock images.
+- Cassie by Designs a local graphic designer for creating the hero image and the Logo svg for the site.
+- Rohit Sharma my mentor for his generous giving of time for feedback and help planning. 
