@@ -42,7 +42,7 @@ As a [type of user], I want [an action] so that [a reason/a value]
 2. I want to be able to easily navigate throughout the website in order to find out the information that I want.
 3. I want to be able to easily contact the shop/club, in order to address any questions that I may have.
 4. I want to feel put at ease before visiting the club that I will be welcomed.
-5. I want to feel put at ease by the site that the business is proffesional and capable of providing me the service I want.
+5. I want to feel put at ease by the site that the business is professional and capable of providing me the service I want.
 
 ## Strategy
 
@@ -90,20 +90,21 @@ Here is a list of the features that are currently implemented on the website as 
 
 ### Review Carousel
 
-- The Review carousel was implented as a way to show 0ff the good reviews of the business and to help create a feeling of security in the brand and a desire to get involved.
+- The Review carousel was implented as a way to show off the good reviews of the business and to help create a feeling of security in the brand and a desire to get involved.
 - It allows an interactive way for the the user to see several of the good reviews the business has recieved but in a way that doesn't take up too much screen real estate and clutter the site. Users who want to read multiple reviews can work across the carousel and read them and user who don't desire don't have to scroll through reams of text to get to the information in the footer.
-- The carousel adapts to different screen sizes. In larger screen sizes (desktop, tablet) it is a visual feature. On smaller screen sizes it disappears altogether as to not clutter the site and keep it snappy. The carousel visually becomes unsitely under a certain size and this suited the mobile site style more also.
+- The carousel adapts to different screen sizes. In larger screen sizes (desktop, tablet) it is a visual feature. On smaller screen sizes it disappears altogether as to not clutter the site and keep it snappy. The carousel notably became unsightly under a certain size so it is removed to better suit the mobile styling.
 
 ### Footer
 
 - The footer contains key information that users want to know and provides it in an easily accessible place that is consistent and the same across all pages.
--Opening hours are displayed in full along side the address and contact details of the business. It is easy to read and clear.
+- Opening hours are displayed in full along side the address and contact details of the business. 
+- It is easy to read and clear.
 
 ### Brands We Stock:
 
-- The brands we stock section is an easy way to present customers with an idea of the sort of stock they are going to do find inside of the shop.
--It's visual and easy to understand for anyone. 
--The logo's will be familiar to seasoned propsective customers, but even if not it's visual aspect doesn't hinder new knitters.
+- The brands we stock section is an easy way to present customers with an idea of the sort of stock they are going to find inside of the shop.
+- It's visual and easy to understand for anyone. 
+- The logo's will be familiar to seasoned propsective customers, but even if not it's visual aspect doesn't hinder new knitters.
 
 ### Reasons to Join Section:
 
@@ -111,15 +112,15 @@ Here is a list of the features that are currently implemented on the website as 
 - The font awesome icons give the information a visual aspect and help style the page.
 - They adapt to different screen sizes in terms of layout.
 
-### Where to find us:
+### How to Find Us:
 
-- The where to find us section includes a google maps intergration to give an easy visual cue to our location and an easy way to link out for direction.
-- The address is provided in writing also incase there are any issues with the google maps intergration.
-- It is stylistically pleasing and easy for user to understand.
+- The 'How to Find Us' section includes a google maps intergration to give an easy visual cue to our location and an easy way to link out for direction.
+- The address is provided in writing aswell, this is incase any issues arise with the google maps intergration.
+- It is stylistically pleasing and easy for users to understand.
 
 ### Contact Form:
 
-- The contact form is provides user with an easy way to contact the business quickly directly from the webite. 
+- The contact form provides users with an easy way to contact the business quickly, directly from the webite. 
 - It is simple and easy to understand. 
 - The form asks for things the users are used to and is layed out in a similar fashion to other contact forms to lend an air of familiarity. 
 
