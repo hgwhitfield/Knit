@@ -1,5 +1,8 @@
 # Knit And Natter With Jan
 
+![Responsive Site Demonstration Screenshot](../docs/images/responsive-site1.jpg)
+
+
 :computer: View the live site **[here](https://hgwhitfield.github.io/Knit/)**
 
 Knit and Natter with Jan is a website designed as the virtual counterpart of Jan's beloved knitting shop, embodying the same warmth and welcoming atmosphere that the physical store is known for. The platform serves as a resource of information for those who wish to know more about the business, offering detailed information about the shop, its offerings, and the vibrant community that gathers there. While the website aims to project a professional and reliable image to instill confidence in potential visitors, it also captures the social and cozy essence that Jan's shop is celebrated for. With a focus on accessibility, the site is crafted to ensure ease of navigation, catering to the diverse age range of the knitting community, from older seasoned enthusiasts to the burgeoning number of younger hobbyists. The goal is to blend functionality with aesthetic appeal, making it a welcoming online space for all knitting aficionados.
@@ -67,7 +70,7 @@ Here is a list of the features that are currently implemented on the website as 
 
 ### Current Features:
 
-### Navbar:
+### Navbar
 
 - The navbar prominently displays the "Knit and Natter with Jan" logo, which serves as a welcoming emblem for your community of knitting enthusiasts.
 - Clicking on the logo conveniently brings users back to the homepage, ensuring easy navigation and a home base for visitors to return. It is also has a fun hover effect to provide tactile feedback and improve the overall feel of the site.
@@ -81,7 +84,7 @@ Here is a list of the features that are currently implemented on the website as 
 - The image scales to different sizes depending on the screen size. This allows the entire image to always be visible.
 - Similar images are used on other pages to add a sense of continuity across the site.
 
-### Index nav cards
+### Index Navigation Cards
 
 - The navigation cards on the index page provide a concise and intuitive introduction to the various services offered by the business. They present information in an easily digestible manner, enabling users to quickly identify and navigate to the sections of interest for further exploration. This dual-purpose design efficiently fulfills both informational and navigational needs.
 - They are stylised and animated on hover, this gives the user a robust tactile sense that they are clickable elements.
@@ -100,25 +103,25 @@ Here is a list of the features that are currently implemented on the website as 
 - Opening hours are displayed in full along side the address and contact details of the business. 
 - It is easy to read and clear.
 
-### Brands We Stock:
+### Brands We Stock Section
 
 - The brands we stock section is an easy way to present customers with an idea of the sort of stock they are going to find inside of the shop.
 - It's visual and easy to understand for anyone. 
 - The logo's will be familiar to seasoned propsective customers, but even if not it's visual aspect doesn't hinder new knitters.
 
-### Reasons to Join Section:
+### Reasons to Join Section
 
 - This uses bootstraps card system to provide 3 reasons to join the club in a visually pleasing and easy to read way.
 - The font awesome icons give the information a visual aspect and help style the page.
 - They adapt to different screen sizes in terms of layout.
 
-### How to Find Us:
+### How to Find Us
 
 - The 'How to Find Us' section includes a google maps intergration to give an easy visual cue to our location and an easy way to link out for direction.
 - The address is provided in writing aswell, this is incase any issues arise with the google maps intergration.
 - It is stylistically pleasing and easy for users to understand.
 
-### Contact Form:
+### Contact Form
 
 - The contact form provides users with an easy way to contact the business quickly, directly from the webite. 
 - It is simple and easy to understand. 
@@ -137,7 +140,7 @@ Here is a list of the features that are currently implemented on the website as 
 
 ![Colour Pallete](../docs/images/colour-pallete.jpg)
 
-### Body : 
+### Body: 
 
 #FFFFFF is used on the body to give a clean base for styling.
 
@@ -153,7 +156,7 @@ Here is a list of the features that are currently implemented on the website as 
 
 #333 black choosen to be easy to read over background colours and for its simple timeless nature.
 
-## Fonts 
+## Fonts:
 
 - The main font used in the website is 'Fira Sans' This was choosen for two reasons the main one it is legible and easy to read, but it is also the font from the 'knit and natter' section of the logo. This allows for the company branding to flow through the website.
 
@@ -182,17 +185,19 @@ Here is a list of the features that are currently implemented on the website as 
 
 3. [Git:](https://git-scm.com/) Used for version control.
 
-4. [Gitpod](https://www.gitpod.io/) Was used as the coding enviorment. 
+4. [Gitpod:](https://www.gitpod.io/) Was used as the coding enviorment. 
 
-5. [Github](https://github.com/) To store, host and deploy the website
+5. [Github:](https://github.com/) To store, host and deploy the website
 
-6. [Balsamiq](https://balsamiq.com/) To create the wireframes for the design process.
+6. [Balsamiq:](https://balsamiq.com/) To create the wireframes for the design process.
 
-7. [Bootstrap](https://getbootstrap.com/) Utilised for the grid system and some of the 'card' features.
+7. [Bootstrap:](https://getbootstrap.com/) Utilised for the grid system and some of the 'card' features.
 
-8. [Google Fonts](https://fonts.google.com/) For the fonts on the site.
+8. [Google Fonts:](https://fonts.google.com/) For the fonts on the site.
 
-9. [Font Awesome](https://fontawesome.com/) For the icons on the site.
+9. [Font Awesome:](https://fontawesome.com/) For the icons on the site.
+
+10. [ChatGPT:](https://chat.openai.com/) Utilised for troubleshooting code and as a starting off point for text content.
 
 ## Testing
 
