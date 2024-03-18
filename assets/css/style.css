@@ -229,6 +229,12 @@ iframe {
 .custom-card {
   padding: 20px;
 }
+/* Removes padding so that the cards match other containres when presented in a column on mobile */
+@media (max-width: 600px) {
+  .custom-card {
+    padding: 0;
+  }
+}
 
 .index-card-img {
   border-radius: 8px;
