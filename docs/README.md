@@ -41,11 +41,11 @@ I have laid out my user stories as follows:
 As a [type of user], I want [an action] so that [a reason/a value]
 
 **First Time Visitor Goals**
-1. I want to understand the purpose of the site and be able to tell if this is a website that I want to use within the index page.
-2. I want to be able to easily navigate throughout the website in order to find out the information that I want.
-3. I want to be able to easily contact the shop/club, in order to address any questions that I may have.
-4. I want to feel put at ease before visiting the club that I will be welcomed.
-5. I want to feel put at ease by the site that the business is professional and capable of providing me the service I want.
+1. As a first-time visitor, I want to quickly understand the purpose of the site from the index page so that I can determine if this is a website that I want to use.
+2. As a first-time visitor, I want to easily navigate throughout the website so that I can find the information I am looking for without difficulty.
+3. As a first-time visitor, I want to be able to easily contact the shop/club so that I can address any questions that I may have.
+4. As a first-time visitor, I want reassurances from the site that I will be welcomed at the club so that I feel at ease before visiting.
+5. As a first-time visitor, I want the site to convey a sense of professionalism and capability so that I feel assured the business can provide the service I am seeking.
 
 ## Strategy
 
